@@ -1,0 +1,16 @@
+.project-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .project-card a {
+    color: #61dafb;
+    text-decoration: none;
+  }
