@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import FloatingContact from './components/FloatingContact';
 import './App.css';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
         </Routes>
         <Footer />
+        <FloatingContact />
       </div>
     </Router>
   );

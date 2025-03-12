@@ -35,6 +35,7 @@ const Footer = () => {
         ))}
       </div>
 
+      <p>lucastakase@gmai.com || +351 924 714 460</p>
       <p>&copy; 2025 React Portfolio Showcase. All rights reserved.</p>
     </footer>
   );

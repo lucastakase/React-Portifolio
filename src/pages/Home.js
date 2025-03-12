@@ -46,6 +46,11 @@ const Home = () => {
               <p>OutSystems, Git, IntelliJ, and TomCat.</p>
             </div>
             <div className="skill">
+              <p><FaCode /></p>
+              <strong>Outsystems</strong>
+              <p>Reactive, Mobile, O11</p>
+            </div>
+            <div className="skill">
               <p><FaUsers /></p>
               <strong>Agile & Teamwork</strong>
               <p>Experienced in SCRUM and cross-functional collaboration.</p>
