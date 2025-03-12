@@ -35,7 +35,7 @@ const Footer = () => {
         ))}
       </div>
 
-      <p>&copy; 2023 React Portfolio Showcase. All rights reserved.</p>
+      <p>&copy; 2025 React Portfolio Showcase. All rights reserved.</p>
     </footer>
   );
 };
