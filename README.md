@@ -5,10 +5,15 @@ A **React.js** project to showcase personal projects, skills, and information ab
 ## 📌 Features  
 
 ✅ **Home Page**: A welcoming introduction to the portfolio.
+
 ✅ **About Page**: Information about the developer and their skills.
+
 ✅ **Projects Page**: A dynamic grid of project cards with descriptions and links.
+
 ✅ **Responsive Design**: Works seamlessly on mobile, tablet, and desktop.
+
 ✅ **Dark Theme**: A sleek and modern dark mode for better readability.
+
 ✅ **React Router DOM**: Smooth navigation between pages.
 
 ## 🖥️ Demo  
