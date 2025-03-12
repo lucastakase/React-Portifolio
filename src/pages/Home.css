@@ -1,0 +1,119 @@
+.home {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fd0303; /* Cor secundária */
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .home-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Ajuste o tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+  }
+  
+  /* Restante do CSS (mantenha as outras regras) */
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .skills-grid, .experience-grid, .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill, .experience-item, .project {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .skill svg, .project svg {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fd0303; /* Cor secundária */
+  }
+  
+  .skill h3, .experience-item h3, .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill p, .experience-item p, .project p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .cta {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background-color: #fd0303; /* Cor secundária */
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e60000; /* Cor mais escura no hover */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home-image img {
+      width: 200px; /* Ajuste o tamanho da imagem para mobile */
+    }
+  }

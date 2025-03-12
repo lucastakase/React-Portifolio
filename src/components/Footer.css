@@ -1,6 +1,36 @@
 .footer {
     background-color: #1f1f1f;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+    color: #ffffff;
     margin-top: auto;
+  }
+  
+  .footer p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #fd0303; /* Cor secundária */
+  }
+  
+  .social-link svg {
+    font-size: 1.5rem; /* Tamanho dos ícones */
   }
