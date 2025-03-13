@@ -18,7 +18,10 @@ A **React.js** project to showcase personal projects, skills, and information ab
 
 ## 🖥️ Demo  
 
-<img src="src\Screenshot.png" width="600">
+<img src="public/ScreenshotHome.png" width="600">
+<img src="public/ScreenshotAbout.png" width="600">
+<img src="public/ScreenshotProjects.png" width="600">
+Check ---> https://reactportifolio-chi.vercel.app/
 
 ## 🔧 Technologies
 
